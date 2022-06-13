@@ -1,0 +1,413 @@
+* {
+    font-family: 'Fredoka', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* End Defaults */
+
+/* Top Bar */
+
+.top__bar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.top__bar__logo img {
+    width: 100%;
+}
+
+.btn-light {
+    background-color: #fff;
+    border-color: #dee2e6;
+    color: #212529;
+}
+
+.btn-light:hover {
+    border-color: #232d40;
+    color: #232d40;
+}
+
+.btn-light:hover i {
+    color: #232d40;
+}
+
+.btn-light i {
+    color: #9da1a7;
+}
+
+/* Category list */
+
+.category__list a {
+    color: #9da1a7;
+}
+
+.category__list a:hover {
+    color: #DC3545;
+}
+
+/* Slider */
+
+/* .slider__nav {
+    max-height: 500px;
+}
+
+@media(min-width:992px) {
+    .slider__nav {
+        max-height: 800px;
+    }
+}
+
+@media(min-width:1200px) {
+    .slider__nav {
+        max-height: 450px;
+    }
+}
+
+@media(min-width:1400px) {
+    .slider__nav {
+        max-height: 500px;
+    }
+} */
+
+/* Popular Products */
+
+.popular__title {
+    padding: 20px;
+}
+
+.popular__title h3 {
+    font-weight: bold;
+}
+
+.products__wrap {
+    padding: 15px;
+}
+
+.card .img-wrap {
+    height: 250px;
+}
+
+.img-wrap {
+    position: relative;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card .img-wrap img {
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.card .title {
+    display: block;
+    text-decoration: none;
+    color: #51585e;
+}
+
+.card .info-wrap {
+    padding: .8rem 1rem;
+}
+
+.btn-icon {
+    width: 2.5rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.all__pr__vw .btn__all {
+    border-radius: 20px;
+    transition: all .2s ease-in-out;
+}
+
+.all__pr__vw .btn__all:hover {
+    background-color: #fff;
+    color: #DC3545;
+    transition: all .2s ease-in-out;
+}
+
+/* Latest Products */
+
+.latest__title {
+    padding: 20px;
+}
+
+.latest__title h3 {
+    font-weight: bold;
+}
+
+.wishlist__icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    width: 2.5rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.fa-heart-o {
+    color: #9da1a7;
+}
+
+span.book__name {
+    font-size: 1.2rem;
+}
+
+span.book__author {
+    font-size: 1rem;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+span.price {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* Advertisement Products */
+
+.advertisement__area {
+    padding: 20px;
+}
+
+.adv__box {
+    background-image: url("../images/abbey-library-of-sty-gall-1596575849.webp");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    background-attachment: fixed;
+}
+
+.adv__wr {
+    height: 300px;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.adv__text {
+    position: absolute;
+    top: 20%;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+}
+
+@media(max-width: 678px) {
+    .adv__text {
+        top: 15%;
+        font-size: 15px;
+    }
+}
+
+/* Footer */
+
+#footer .footer__logo img {
+    width: auto;
+    max-width: 100%;
+}
+
+#footer .footer__title p {
+    color: #9da1a7;
+}
+
+#footer .footer__social a {
+    color: #9da1a7;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #9498A7;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    transition: all .2s ease-in-out;
+}
+
+#footer .footer__social a:hover {
+    color: #fff;
+    border: none;
+    background-color: #DC3545;
+    transition: all .2s ease-in-out;
+}
+
+#footer .footer__navbar a {
+    color: #9da1a7;
+}
+
+#footer .footer__navbar a:hover {
+    color: #DC3545;
+}
+
+
+/* All Products */
+
+.all__img__wrap img {
+    height: 350px;
+    max-width: 100%;
+    width: auto;
+    object-fit: cover;
+}
+
+/* Filter box */
+
+.filters .filter__box {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.filters .filter__box .card__header {
+    border-bottom: 0;
+    border-radius: 0;
+}
+
+.filters .filter__box .menu {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.filters .filter__box .menu li {
+    margin-bottom: 3px;
+}
+
+.filters .filter__box .menu li>a {
+    color: #51585e;
+}
+
+.filters .scroll {
+    max-height: 300px;
+    overflow: auto;
+}
+
+.filters .card-header a {
+    color: #000;
+}
+
+.filters .fa-chevron-down {
+    float: right;
+    font-size: 14px;
+    color: #9da1a7;
+    margin-top: 5px;
+}
+
+.filters .btn-light {
+    background-color: #fff;
+    border-color: #dee2e6;
+    color: #212529;
+}
+
+
+/* Product Deatils */
+
+.single__product__card {
+    padding: 10px;
+}
+
+.breadcrumb a {
+    color: #DC3545;
+    opacity: .75;
+}
+
+.breadcrumb .breadcrumb-item {
+    color: #9da1a7;
+}
+
+.gallery-wrap .img-big-wrap img {
+    max-width: 100%;
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-wrap .img-big-wrap {
+    display: block;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 1rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+.gallery-wrap .img-thumbnail {
+    border: none;
+}
+
+.checked {
+    color: orange;
+}
+
+.product__single__main .price {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Comments */
+
+.comments__area .content {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.comments__area .content img {
+    width: 80px;
+    height: 80px;
+    margin-right: .6rem;
+}
+
+.comments__area .content .fa-star,
+.comments__area .rating-wrap .fa-star {
+    font-size: 12px;
+}
+
+.comments__area .checked {
+    color: orange;
+}
+
+.comments__area .btn-light:hover {
+    border-color: #c1c9d0;
+    color: #0d6efd;
+}
+
+.comments__area .form-control,
+.comments__area .form-select {
+    background-color: #f9f9f9;
+}
